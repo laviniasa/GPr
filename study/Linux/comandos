@@ -1,0 +1,74 @@
+1.Liste todas os arquivos existentes na raiz do seu computador
+cd / e ls
+
+2. Liste todos os arquivos existentes na pasta do seu usuário
+cd /home/Lavinia e ls
+
+3. Instale o programa 'figlet' no seu computador
+sudo apt-get install figlet
+
+4. Execute o comando 'figlet <seu_email>'
+figlet renan.simoes@gpr.com.br
+
+5. Desinstale o programa 'figlet' do seu computador
+sudo apt-get remove figlet
+
+6. Copie a pasta 'Linux' e todo seu conteúdo para a pasta de arquivos temporários do seu computador
+
+7. Liste o conteúdo da pasta 'base'
+cd /tmp/Linux/base e ls
+
+8. Liste o conteúdo da pasta 'base' em formato de lista
+ls -l ou ll
+
+9. Mostre todo o conteúdo do arquivo 'arq1' no terminal
+cat arq1
+
+10. Mostre no terminal as últimas 10 linhas do arquivo 'arq1'
+tail -n 10 arq1
+
+11. Edite o arquivo 'arq2' e digite o seu email nele
+sudo nano arq2
+digitar o email
+Ctrl + O
+Enter
+Ctrl + X
+
+12. Mostre o conteúdo da pasta 'oldFolderWithFilesAndFoldersInside'
+cd oldFolderWithFilesAndFoldersInside
+ls ou ll
+
+13. Verifique se existem arquivos ou pastas dentro do diretório 'newFolderWithoutFilesOrFolderInside'
+find nome_arquivo ou usar o ls -a newFolderWithoutFilesOrFolderInside/
+
+13-1. Você verificou corretamente o conteúdo dessa pasta??
+
+Sim
+14. Crie uma nova pasta chamada 'sub2' dentro da pasta 'base'
+mkdir sub2
+
+15. Mova todos os arquivos '.txt' de dentro da pasta 'sub1' para a pasta 'sub2'
+mv sub1/*.txt sub2
+
+16. Liste os arquivos existentes nas pastas 'sub1' e 'sub2'
+ll sub1 && ll sub2
+
+17. Liste os arquivos existentes na pasta 'del_folder'
+cd oldFolderWithFilesAndFoldersInside/del_folder
+ls -l ou ll
+
+18. Delete a pasta 'del_folder' junto com seu conteúdo
+rm -r del_folder
+
+19. Renomeie o arquivo 'arq3' para 'new_arq3'
+mv arq3 new_arq3
+
+20. Mova o arquivo 'arq2' para dentro da pasta 'sub2' renomeando-o para 'new_arq2.txt'
+mv arq2 sub2
+mv arq2 sub2/new_arq2
+
+21. Faça uma cópia do arquivo 'arq1' para dentro da pasta 'newFolderWithoutFilesOrFolderInside'
+cp arq1 newFolderWithoutFilesOrFolderInside
+
+22. Renomeia a pasta 'newFolderWithoutFilesOrFolderInside' para 'FolderWithFilesNow'
+mv newFolderWithoutFilesOrFolderInside FolderWithFilesNow
