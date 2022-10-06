@@ -1,0 +1,7 @@
+Diferença entre container e imagem:
+
+As imagens são como classes, vão servir de base para os containers.
+Ou seja, todo container roda pela base de uma imagem,que tem todas as configurações que ele precisa ter.
+Pode se dizer então que o conteiner é a instancia da imagem.
+Pode ter diversos containers rodando de uma mesma imagem
+Os conteiners podem ser executados, já as imagens são apenas arquivos de configuração. 
