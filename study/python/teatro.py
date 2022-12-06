@@ -76,15 +76,23 @@ if __name__ == "__main__":
             linha, coluna = lugares.split(',')
             Zenaide.reserva(int(linha), int(coluna))
             resp = str(input('mais ingressos? (1- y/ 2- n): ')).lower()
+
             if resp == 'n':
+                print('')
+                print('__Pagamento__')
                 resp = str(input('qual é a forma de pagamento?(1- Débito/ 2- Crédito ): ')).lower()
+                print('')
                 if resp != 3:
                    senha = int(input('digite sua senha:  '))
                    print('pagamento efetuado')
+                   print('')
                    lugares = int(input('voltar ao menu? (1-y/2-n): '))
-                   if lugares == 1:
+                if lugares == 1:
                     Zenaide.menu()
-                    opcao == 0
+                    opcao = int(input("digite sua escolha  "))
+                else:
+                    lugares == 2
+                    break
                 
             if bilhete == 1:
             # print(inteira)
