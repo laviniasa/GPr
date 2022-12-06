@@ -55,35 +55,37 @@ if __name__ == "__main__":
     resp = 'y'
     teste = 0
 
-    while opcao != 4:
+    while opcao != 5:
         if opcao == 1:
             print("__ Cliente: __")
-         
             nome = input("Digite o nome: ")
 
             print('')
 
             print("_ ingressos _")       
-
             bilhete = int(input('que tipo de ingresso? (1-inteira/2-meia): '))
+            
             print('')
 
             print("__Lugares__")
-
             Zenaide.exibir()
+            
             print('')
+            
             lugares = input("escolha uma opção de lugar:")
             linha, coluna = lugares.split(',')
             Zenaide.reserva(int(linha), int(coluna))
             resp = str(input('mais ingressos? (1- y/ 2- n): ')).lower()
             if resp == 'n':
-                resp = str(input('qual é a forma de pagamento?(1- Débito/ 2- Crédito123): ')).lower()
+                resp = str(input('qual é a forma de pagamento?(1- Débito/ 2- Crédito ): ')).lower()
                 if resp != 3:
-                   senha = int(input('digite sua senha:  ')).lower()
+                   senha = int(input('digite sua senha:  '))
                    print('pagamento efetuado')
-                #print(resp)
-                #Zenaide.menu()
-                #opcao = int(input("digite sua escolha  "))
+                   lugares = int(input('voltar ao menu? (1-y/2-n): '))
+                   if lugares == 1:
+                    Zenaide.menu()
+                    opcao == 0
+                
             if bilhete == 1:
             # print(inteira)
                 total = 40
@@ -104,10 +106,8 @@ if __name__ == "__main__":
             lugares = int(input('voltar ao menu? (1-y/2-n): '))
             lugares == 1
             Zenaide.menu()
-            #linha, coluna = lugares.split(',')
-            #Zenaide.reserva(int(linha), int(coluna))
             
-        elif opcao == 5:
+        elif opcao == 4:
             print("__ Total Arrecadado: __")
             print(total_geral)
             bala = int(input('voltar ao menu? (1-y/2-n): '))
@@ -116,6 +116,13 @@ if __name__ == "__main__":
             else:
                 bala == 2
                 break
+        elif opcao == 5:
+            break
         else:
             print("opção invalida")
+            print('')
+            lugares = int(input('voltar ao menu? (1-y/2-n): '))
+            lugares == 1
+            Zenaide.menu()
+            opcao = int(input("digite sua escolha  "))
         total_geral += total
