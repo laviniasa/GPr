@@ -1,9 +1,9 @@
-x = int(input("Numero: "))
-
-soma = 0
-
-while (x != 0):
-    resto = x % 10
-    x = (x - resto)//10
-    soma = soma + resto
-print(soma)
+#Crie uma função que dado um número inteiro n retorna o somatorio dos números de 0 a n
+def sum (n):
+    soma = 0
+    for n in range(0, n + 1):
+        soma = soma + n
+    return soma
+a = 5
+test = sum(a)
+print(sum(a))
