@@ -1,0 +1,12 @@
+Algoritmo 3) Fazer um algoritmo que calcule a área de um trapézio.
+
+criar uma variavel base_maior
+informar o valor da base 
+criar uma variavel base menor 
+informar o valor da base
+criar uma variavel altura 
+informar a altura 
+criar uma variavel area 
+somar base_maior mais a base_menor
+multiplicar pela altura dividido por 2
+mostrar area

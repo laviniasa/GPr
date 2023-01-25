@@ -1,0 +1,10 @@
+Algoritmo 2) Fazer um algoritmo que calcule a área de um triângulo.
+
+
+criar uma variavel base 
+informar a base 
+criar uma variavel altura 
+informar a altura 
+criar uma variavel area 
+multiplicar base * altura / 2.0
+mostrar area

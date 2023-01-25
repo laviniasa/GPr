@@ -1,0 +1,21 @@
+Algoritmo 4) Crie um algoritmo que leia dois números inteiros e que depois mostre:
+
+O primeiro valor elevado ao segundo valor
+O primeiro valor vezes o segundo valor
+O número inverso do primeiro valor (se não souber o que é o valor inverso, pesquise)
+A soma do segundo número com a metade do primeiro número
+A diferença do primeiro número com o segundo
+O valor oposto do segundo número
+
+
+criar uma variavel num_1
+informar o valor
+criar uma variavel num_2
+informar valor
+
+
+def funcao (n, m):
+    a = n**m
+    b = n*m
+    c = 1.0/n
+    d = ,
