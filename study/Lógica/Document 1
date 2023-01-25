@@ -1,0 +1,17 @@
+#- Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
+#Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
+
+#Imprima os três vetores.
+#criar uma variavel
+#colocar o valor de 20
+#criar uma variavel vazia inteiros
+#criar uma variavel vazia pares
+#criar uma variavel varia impares
+#digitar um valor
+#fazer a divisão do valor
+#se o resto da divisão for igual a 0
+#adicionar no vetor pares
+#se não adicionar em impares
+#mostrar inteiros
+#mostrar pares
+#mostrar impares

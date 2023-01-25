@@ -1,0 +1,18 @@
+#- Faça uma função que recebe por parâmetro um valor X em segundos
+#  e retorna esse tempo em horas, minutos e segundos.
+
+#definir função
+#receber um parametro
+#criar variavel
+#dividir o valor por 3600
+#guardar resultado
+#criar outra variavel
+#dividir valor por 60
+#guardar valor
+#criar outra variavel
+#valor
+#retornar variaveis
+#fora da função
+#definir um valor
+#chamar fução
+#mostrar resultado

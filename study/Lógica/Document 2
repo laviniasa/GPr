@@ -1,0 +1,16 @@
+#- Faça uma função que recebe um valor inteiro e verifica se o valor é positivo ou negativo.
+#  A função deve retornar um valor booleano.
+
+#definir uma função
+#receber valor inteiro
+#se o valor for maior que 0
+#retonar true
+#se for igual a 0
+#retornar true
+#se não
+#retornar false
+#fora da função
+#criar uma variavel
+#definir um valor
+#chamar função
+#mostrar resultado

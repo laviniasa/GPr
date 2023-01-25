@@ -1,0 +1,21 @@
+#Declare um vetor de 10 posições e o preencha com os 10 primeiros números impares e o escreva.
+
+
+#definir uma função
+#declarar um vetor vazio
+#percorrer cada posição 1 por 1
+#dividir o valor por 2
+#se o resto for igual a 0
+#adicionar ao vetor
+#ao final das 10 posições retornar vetor
+#fora da função
+#criar uma variavel
+#definir 10 valores para a variavel
+#mostrar resultado
+
+
+
+
+
+
+

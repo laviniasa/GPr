@@ -1,0 +1,16 @@
+#Faça uma função que recebe um valor inteiro e verifica se o valor é par ou ímpar.
+
+6
+# A função deve retornar um valor booleano
+#definir função
+#receber um valor inteiro como parametro
+#criar uma variavel
+#fazer uma divisão do numero inteiro dividido por 2
+#verificar se o resto da divisão é igual a 0
+#se o resto for 0
+#retornar True
+#se não retornar false
+#fora da função
+#criar variavel com com numero inteiro
+#chamar função
+#mostrar resultado
