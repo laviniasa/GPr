@@ -1,0 +1,9 @@
+capacidade max 
+valor do ingresso
+total arrecado
+# quantidade de ingressos vendidos
+
+mostrar lugares
+venda dos ingressos
+mostrar total arrecado
+mostrar menu
