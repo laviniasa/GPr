@@ -1,0 +1,7 @@
+Crie uma função que recebe um número e retorna o seu sinal oposto
+
+definir uma função "sinal oposto" que recebe um numero X como parametro
+criar uma variavel ‘v’
+multiplicar o parametro X recebido por -1
+retornar v
+
