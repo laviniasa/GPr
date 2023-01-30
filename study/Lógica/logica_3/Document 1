@@ -1,0 +1,16 @@
+Crie uma função que dado um número inteiro n retorna o somatorio dos números de 0 a n
+
+
+definir uma função "Teste" que recebe um numero n como parametro 
+criar uma variavel com valor de inicio, para calcular a somatória dos numeros da lista.
+
+criar um laço de loop for onde i é uma variavel interavel representando o indice passando pelo parametro informado
+
+
+usar variavel acumuladora soma onde soma vai ser igual a soma mais i
+
+retornar soma 
+
+agosto 23 1
+agosto 24 2
+agosto 25 3

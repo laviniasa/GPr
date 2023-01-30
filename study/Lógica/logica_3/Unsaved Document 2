@@ -1,0 +1,11 @@
+Crie uma função que recebe uma lista de strings e retorna a lista de strings ordenada da menor string para a maior string
+
+
+criar uma função "decrescente" com um número 'n' como parametro
+criar uma variavel s 
+ultilizar a função sorted para ordenar a lista
+utilizar o argumento key da função sorted, Como tem uma lista de strings para ordenár como inteiros,passar a classe int através do argumento key, assim, a lista será ordenada conforme o retorno de int para cada valor, mas o resultado vai continuar como uma lista de strings.
+ 
+
+
+
