@@ -1,0 +1,17 @@
+# Crie uma função que receba uma lista de strings, remova as letras repetidas de
+# cada uma delas e retorne uma lista das novas strings
+
+1 criar uma função "duplicado" com uma string "s" como parametro
+
+2 criar uma variavel "d" com uma lista vazia
+
+3 criar um o laço de loop for onde 'palavra' esta em 's'
+
+- criar outro laço de loop for onde 'letra' esta in 'palavra'
+
+4 então se s não estiver em 'd'
+
+5 colocar 'd' e ultilizar a função .append para adicionar a letra ao final da frase e 
+colocar 'letra' como parametro
+
+6 retornar 'd'

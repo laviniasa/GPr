@@ -1,0 +1,47 @@
+Crie uma função que recebe uma lista qualquer e troca a
+metade da frente com a metade 
+de trás
+
+criar uma lista lista1 vazia
+
+criar outra lista lista2 vazia
+
+criar um indicador de inicio
+
+ultilizar o laço de repetição while para percorrer a metade da lista 
+
+com o metodo.append a primeira metade da lista sera adicionada a lista1
+
+criar outro indicador de inicio
+
+criar outro laço de repetição while onde enquanto troca2 for menor len(l)
+
+adiciona a lista 2
+
+conta mais 1 
+
+atualizar troca2 onde vai ser int(len(l)/2
+
+retornar troca2
+
+def troca(l):
+    lista1 = []
+    lista2 = []
+
+    troca = 0
+    while troca < len(l)/2:
+        lista1.append(l[troca])
+        troca += 1
+    troca2 = 0
+    while troca2 < len(l):
+        lista2.append(l[troca2])
+        troca2 += 1
+        troca2 = int(len(l)/2)
+        return troca2
+        
+lis = ["eu", "amo", "a", "natureza" ]
+
+lis.clear()
+lis.append(lista2)
+lis.append(lista1)
+print(lis)

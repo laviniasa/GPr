@@ -1,0 +1,18 @@
+Crie uma função que receba um parâmetro n e retorna uma lista de n números inteiros.
+
+1- definir uma funçao 'lista_1'  que receba um numero 'n' como parametro
+
+2- criar uma variavel 'l' com um lista vazia
+
+3- criar um laço de loop for onde i é um valor representando 
+passando pelo range e definir o intervalo  informado entre o valor inicial e o n
+
+4- por meio do método .append adicionar os números ao final da lista 
+
+5- retornar l com o resultado
+
+def lista_1(n):
+    l = []
+    for i in range(0, n):
+    l.append(i)
+    return l

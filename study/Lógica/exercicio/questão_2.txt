@@ -1,0 +1,30 @@
+Crie uma função que recebe uma lista de dicionarios e retorna ou
+uma string seguindo o formato <nome> <país> do ultimo desenvolvedor
+python que encontrar ou a string não há desenvolvedor python aqui
+
+
+criar uma variavel desenvolvedores que recebe uma lista de dicionarios
+com o nome e o país do desenvolvedor
+
+criar uma função busca_dev()  que recebe desenvolvedores como parametro
+que vai ser uma lista contendo um dicionario e dentro e nesse dicionario a 
+chave é uma str e uma str como valor 
+
+e o valor é uma str e vai receber uma
+ str nome_buscado onde ira retornaruma str como chave e uma str como valor 
+
+criar um for d in desenvolvedores, onde nome e país é igual a d.values
+
+criar um laço de condição if onde nome_buscado for igual f'{nome} {país}':
+
+retorna d
+
+
+def busca_dev(
+    desenvolvedores: List[Dict[str, str]l, nome_buscado: str
+)-> Dict[str, str]:
+    for d in desenvolvedores:
+      nome, pais = d. values ()
+
+        if nome_ buscado == f' (nome) {pais)'
+    return d

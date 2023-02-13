@@ -1,0 +1,28 @@
+Crie uma função que recebe uma lista de strings e retorna a lista de 
+strings ordenada da 
+menor string para a maior string
+
+
+1- definir uma função "crescente" com p de parametro
+
+2- ultilizar a função sort para ordenar 
+
+3- retornar p
+
+def crescente(p):
+    p.sort()
+    return p
+
+/////////////////////////////////////////////////////
+
+x = ["maracuja", "laranja", "banana", "maçã"]
+
+fruta_anterior = len(x[0])
+feira = 0 
+while feira < len(x):
+    if len(x[feira])<fruta_anterior
+        x[feira -1] = x[feira]
+    feira += 1
+print(len(x[0]))
+
+

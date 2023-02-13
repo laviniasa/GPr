@@ -1,0 +1,28 @@
+Crie uma função que receba um parâmetro n e retorna uma lista de 
+n números inteiros aleatórios.
+
+-importar a biblioteca random
+
+-definir uma função 'teste' que recebe um numero n como parâmetro
+
+-criar uma variavel 'l' com um lista vazia
+
+-criar um laço de loop for onde i é o valor, e definir o intervalo 
+informado entre o valor 
+inicial e o n
+
+- criar uma variavel 'x' que é um numero aleatorio da função ramdom.randint
+
+- na variavel 'l' ultilizar o método .append() onde ira adicionar a variavel x
+
+- retornar 'l' com o resultado
+
+import random
+
+def teste(n)
+    l = []
+    for i in range (0, n)
+        x = ramdom.randint
+        l.append(x)
+    return x
+
