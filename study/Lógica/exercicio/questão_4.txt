@@ -45,3 +45,16 @@ lis.clear()
 lis.append(lista2)
 lis.append(lista1)
 print(lis)
+
+//////////////////////////////////////////////////////////////////////
+
+
+def metade(n):
+    a = list(reversed(n))
+    return a
+    
+lista = ['eu', 'amo', 'a', 'natureza', 'toda']
+# ['natureza', 'toda', 'a' eu amo]
+
+test = metade(lista)
+print(test)
