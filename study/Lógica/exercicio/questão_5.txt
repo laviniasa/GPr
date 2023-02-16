@@ -15,14 +15,24 @@ def crescente(p):
 
 /////////////////////////////////////////////////////
 
-x = ["maracuja", "laranja", "banana", "maçã"]
+sem a função "sort"
 
-fruta_anterior = len(x[0])
-feira = 0 
-while feira < len(x):
-    if len(x[feira])<fruta_anterior
-        x[feira -1] = x[feira]
-    feira += 1
-print(len(x[0]))
+def crescente(p):
+    lista_tamanhos = [len(s) for s in p]
+    qtd_menor_nome = min(lista_tamanhos)
+    
+    while len(p[0]) != qtd_menor_nome:
+        nm_ant = ''
+        count = 0
+        for c in p:
+            if len(c) < len(nm_ant):
+                p[count -1] = c
+                p[count] = nm_ant
+            count += 1
+            nm_ant = c
+    return p
 
+lis = ['Marina', 'Gabriel', 'Guilherme', 'Yasmin', 'abimeleque', 'Levi']
+
+print(crescente(lis))
 
