@@ -20,11 +20,19 @@ criar um laço de condição if onde nome_buscado for igual f'{nome} {país}':
 retorna d
 
 
-def busca_dev(
-    desenvolvedores: List[Dict[str, str]l, nome_buscado: str
-)-> Dict[str, str]:
-    for d in desenvolvedores:
-      nome, pais = d. values ()
+def dicionary_lis(l):
+    r = ""
+    for dicionario in l:
+        if dicionario['profissão'] == 'desenvolvedor python':
+            # count = count + 1
+            r = dicionario['nome'] +' - '+ dicionario['pais']
+    if r == "":
+        r = "não há desenvolvedor python aqui"
+    return r
 
-        if nome_ buscado == f' (nome) {pais)'
-    return d
+dicionario = [{'nome':'Lavinia','profissão':'desenvolvedor fullstack','pais':'Brasil'},
+             {'nome':'Evaldo','profissão':'Professor Matematica','pais':'Brasil'},
+             {'nome':'Same','profissão':'adiministrador Redes','pais':'Brasil'}, 
+             {'nome':'Rubens','profissão':'desenvolvedor debug','pais':'Brasil'}]
+
+print(dicionary_lis(dicionario))
