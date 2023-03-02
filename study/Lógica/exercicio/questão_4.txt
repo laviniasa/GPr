@@ -58,3 +58,63 @@ lista = ['eu', 'amo', 'a', 'natureza', 'toda']
 
 test = metade(lista)
 print(test)
+
+////////////////////////////////////////////////////////////////////
+
+# Crie uma função que recebe uma lista qualquer e troca a
+# metade da frente com a metade de trás
+
+# definir uma função "metade" que recebe uma lista "L" como parametro
+
+# definir uma lista l2 vazia
+
+# definir uma lista l3 vazia
+
+# definir uma lista l4 vazia
+
+# percorrer a lista, para cada iten na lista
+
+# verificar qual é a segunda metade 
+
+# adicionar na lista "list1"
+
+# remover da lista "l"
+
+# verificar qual é a primeira metade 
+
+# adicionar na lista "list2"
+
+# remover da lista "l"
+
+# adicionar "list1"
+
+# adicionar list "l"
+
+# adicionar "list2" na lista "X"
+
+# retornar a lists "X"
+
+
+import math
+def metade(l):
+    i = 0
+    l2 = []
+    l3 = []
+    l4 = []
+    for iten in l:
+        i = i + 1
+        if i <= len(l)/2:
+            l2.append(iten)
+        elif (len(l)%2 == 1)and(i == math.ceil(len(l)/2)):
+            l4.append(iten)
+        else:
+            l3.append(iten)
+    l.clear()
+    l.append(l3)
+    l.append(l4)
+    l.append(l2)
+    return l
+
+x = ['eu', 'amo', 'andar', 'de', 'bicicleta']
+
+print(metade(x))
