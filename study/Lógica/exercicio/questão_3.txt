@@ -1,17 +1,29 @@
 # Crie uma função que receba uma lista de strings, remova as letras repetidas de
 # cada uma delas e retorne uma lista das novas strings
 
-1 criar uma função "duplicado" com uma string "s" como parametro
+# - definir uma função "r_repetidas" com um lista "l" como parametro
 
-2 criar uma variavel "d" com uma lista vazia
+# - passar por cada strings
 
-3 criar um o laço de loop for onde 'palavra' esta em 's'
+# - passar por cada letra de cada string 
 
-- criar outro laço de loop for onde 'letra' esta in 'palavra'
+# - se a letra não for repetida guardar em uma nova lista "x"
 
-4 então se s não estiver em 'd'
+# - quando passar por todas as strings retornar a lista "x"com as novas strings
 
-5 colocar 'd' e ultilizar a função .append para adicionar a letra ao final da frase e 
-colocar 'letra' como parametro
 
-6 retornar 'd'
+def r_repetidas(l):
+    new_list = []
+    new_palavra = ''
+    for palavra in l:
+        for letra in palavra:
+            if letra not in new_palavra:
+                new_palavra += letra
+        new_list.append(new_palavra)
+        new_palavra = ""
+                
+    return new_list 
+
+x = ['sorvete','chocolate','eu','amo']
+
+print(r_repetidas(x))
