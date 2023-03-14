@@ -1,0 +1,18 @@
+pop() é uma função embutida no Python
+que remove e retorna o último valor da lista ou o valor de índice fornecido.
+
+list1 = [ 1, 2, 3, 4, 5, 6 ] 
+print(list1.pop(), list1) 
+
+6 [1, 2, 3, 4, 5]
+
+
+O método pop só remove um item por vez,
+
+Se deseja remover mais de um item, pode fazer um laço for:
+
+for i in range(3):
+    Acessorios.pop()
+
+Dessa forma, serão removidos os 3 últimos elementos, começando pelo último. 
+É sempre do último porque por padrão do pop() remove o último valor da lista.

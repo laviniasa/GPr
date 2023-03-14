@@ -1,0 +1,14 @@
+Insere um item em uma dada posição. O primeiro argumento é o índice do elemento 
+anterior ao qual você deseja inserir, então a. insert(0, x) 
+insere um elemento na frente da lista e a.
+
+
+O insert é muito parecido com o append. 
+Ele insere um item em uma lista, mas o item inserido vai para a posição indicada
+
+
+l_1 = [1,2,3,4,5]
+l_1.insert(1, "bacon")
+print(l_1)
+
+[1, 'bacon', 2, 3, 4, 5]

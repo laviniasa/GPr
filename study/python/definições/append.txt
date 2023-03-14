@@ -1,0 +1,11 @@
+.append() -- O método append é um dos recursos mais úteis em Python para trabalhar
+com listas,permitindo que você adicione elementos ao final de uma lista existente.
+
+
+No exemplo abaixo, criamos uma lista vazia e a atribuímos a uma variável num.
+Em seguida, usando um laço for, adicionamos uma sequência de elementos (inteiros) 
+à lista que estava vazia inicialmente:
+
+num = []
+for i in range(3, 15, 2):
+num.append(i)

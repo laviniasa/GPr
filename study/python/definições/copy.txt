@@ -1,0 +1,19 @@
+o método de cópia presente na lista. Visto que a lista é amplamente utilizada, 
+sua cópia também é necessária.
+
+Uma cópia superficial 
+
+significa que se modificarmos qualquer um dos elementos da lista 
+aninhada,as alterações serão refletidas na lista, pois apontam para a mesma referência.
+
+cópia profunda,
+
+quando adicionamos um elemento em qualquer uma das listas, apenas essa 
+lista é modificada. Quando usamos o operador “=”, a nova lista refere-se ao mesmo objeto,
+portanto,qualquer alteração (acrescentar, remover, alteração de valor) em uma lista é 
+refletida em ambos
+
+ints = [1, 2, 3, 4, 5]
+ 
+    a = ints.copy()
+    print(a)

@@ -1,0 +1,18 @@
+O método extend() de List do Python itera sobre um iterável como string, lista, tupla, 
+etc e adiciona cada elemento do iterável ao final de List . O comprimento da lista 
+aumenta de acordo com o número de elementos presentes no iterável
+
+listaA = [1,2,3,4,5]
+listaB = [6,7,8]
+
+listaA.extend(listaB)
+
+print(listaA)
+
+[1, 2, 3, 4, 5, 6, 7, 8]
+
+Desta forma cada um dos elementos da listaB serão adicionados ao fim da listaA
+o append vai adicionar simplesmente o elemento todo ao final da lista
+Independente do tipo de dado ou se for um iterable
+
+

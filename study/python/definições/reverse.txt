@@ -1,0 +1,10 @@
+forma fácil de inverter uma lista em Python é utilizar a função integrada reversed().
+Esta função aceita um argumento de lista e devolve um iterador da versão invertida da 
+mesma lista.
+
+
+a = [1, 2, 3, 4, 5]
+    a.reverse()
+    print(a)    
+
+imprime [5, 4, 3, 2, 1]

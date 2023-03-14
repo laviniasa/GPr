@@ -1,0 +1,6 @@
+O método count() retorna a quantidade de vezes que um mesmo elemento está contido numa
+lista. Essa é uma excelente maneira que evita a implementação de um Laço de Repetição em
+busca de elementos iguais.
+
+a = [1,2,3,4,5,5]
+a.count(5)

@@ -1,0 +1,17 @@
+Apaga todos os itens da lista) O método clear é simples, quando você utiliza ele 
+apaga todos os itens de uma lista Python. Assim, não sobra nada.
+
+
+A maneira mais fácil e óbvia de limpar uma lista em Python é usar o método clear(),
+ m método predefinido nas listas Python.
+
+Por exemplo, inicialize uma lista com valores inteiros e use a função clear()
+para apagar todos os valores.
+
+lst = [1, 6, 11, 16]
+
+print(lst)
+lst.clear()
+print(lst)
+
+[1, 6, 11, 16]

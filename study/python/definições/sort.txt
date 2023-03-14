@@ -1,0 +1,60 @@
+Com o método sort(), você pode ordenar uma lista em:
+
+Ordem ascendente
+Ordem descendente
+Esse método é usado para ordenar uma lista diretamente, o que significa que ela realiza
+a mutação da lista ou que a modifica diretamente sem criar cópias adicionais.
+
+
+# o método sort() modifica a lista e que, portanto, sua versão original se perde.
+
+Por causa disso, você somente deve usar esse método se:
+
+Quiser modificar (ordenar) a lista permanentemente.
+Não precisar manter a versão original da lista.
+Se essas duas característica forem atendidas, então o método .sort() 
+é exatamente o que você estava procurando.
+
+/////////////////////////////////////////////////
+
+Se você não passar argumentos, por padrão:
+
+A lista será ordenada em ordem ascendente.
+Os elementos da lista serão comparados diretamente usando seus valores com o operador <.
+
+
+b = [6, 3, 8, 2, 7, 3, 9]
+b.sort()
+
+[2, 3, 3, 6, 7, 8, 9] # Ordenada
+
+
+////////////////////////////////////////////
+Aqui, especificamos que reverse é True, então a lista tem de ser ordenada 
+em ordem descendente (inversa).
+
+# Lista de números inteiros:
+
+b = [6, 3, 8, 2, 7, 3, 9]
+b.sort(reverse=True)
+b
+[9, 8, 7, 6, 3, 3, 2]
+
+# Lista de strings:
+
+c = ["A", "Z", "D", "T", "U"]
+c.sort(reverse=True)
+
+['Z', 'U', 'T', 'D', 'A']
+
+
+////////////////////////////////////////////
+
+Digamos que nossa intenção é ordenar uma lista de strings 
+com base no tamanho de cada uma delas, da string menor para a string maior.
+Podemos passar a função len como o valor de key, assim:
+
+d = ["aaa", "bb", "c"]
+d.sort(key=len)
+
+['c', 'bb', 'aaa']

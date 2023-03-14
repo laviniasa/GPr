@@ -1,0 +1,47 @@
+É um comando para representar intervalos, contendo uma ou mais células.
+Para se estabelecer o intervalo do Range é necessário estabelecer uma célula de início 
+e uma de fim. Também é possível estabelecer o intervalo do Range a partir de uma notação 
+String.
+
+Ela permite especificar o inicio de uma sequência e valor final.
+Com isso, o Python nos retorna uma sequência de números para que possamos iterar! 
+
+
+Exemplo: Função range em Python
+
+"Crie um script em Python que imprima os números de 1 até 5 na tela, usando a função 
+range como elemento de início e o de fim."
+
+for val in range(1,6):
+    print(val)
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Note outra coisa em nossa amada função range, ele vai avançando de 1 em 1.
+Mas se eu quiser avançar de 2 em 2, 3 em 3 ?
+
+A range nos permite fazer isso, basta dizer o valor desse salto, desse pulo:
+
+range(inicio, fim, pulo)
+
+Exemplo: Função range em Python - Início, Fim e o Pulo na range()
+
+"Crie um script em Python que imprima os números pares de 1 até 100."
+
+Os números pares são 2, 4, 6, 8, ..., 100
+Eles vão subindo, pulando de 2 em 2.
+
+Veja como fica nosso laço FOR usando a range com pulo:
+
+
+for val in range(2,101,2):
+    print(val)
+
+Primeiro a variável recebe par número 2. Depois imprime.
+Em seguida, pula pro próximo elemento: 2+2=4 e então imprime.
+Depois, pula pro próximo elemento: 4 + 2 = 6 e imprime.
+Depois, 6+2 = 8 e imprime...
+
+Atééééé 101-1=100
+Beeeeem melhor usar o laço FOR e a range, não é verdade?
+Imagina fazer isso na mão ([2,4,6,8,...,100]), não tem como!

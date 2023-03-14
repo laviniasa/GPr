@@ -1,0 +1,18 @@
+Com o método remove você pode remover um valor especificado dentro dos parênteses. 
+Então, este método remove o primeiro item deste valor.
+
+compras = ['arroz', 'feijão', 'arroz', 'óleo de soja', 'macarrão', 'detergente']
+print(compras)
+
+compras.remove('arroz')
+print(compras)
+
+['arroz', 'feijão', 'arroz', 'óleo de soja', 'macarrão', 'detergente']
+['feijão', 'arroz', 'óleo de soja', 'macarrão', 'detergente']
+
+o método remove (list python remove) removeu o item “arroz” da lista, mas somente a
+primeira ocorrência. Note que tinha este item duas vezes na lista e agora 
+ficou somente o que aparecia em segundo lugar.
+
+Então se você quer remover um elemento da lista pelo valor dele o método certo é o
+remove list python.
